@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "StartMyDay",
+    "description": "A way to organize your day with positivity and productivity in your default tab.",
+    "version": "1",
+    "author": "Emily Quinn",
+    "browser_action": {
+        "default_title": "Today is going to be a great day"
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "permissions": ["activeTab"]
+}
